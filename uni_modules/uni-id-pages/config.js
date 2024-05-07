@@ -7,6 +7,7 @@ export default {
 	*/
     isAdmin: false, // 区分管理端与用户端
     loginTypes: [
+        'username',
         // "qq",
         // "xiaomi",
         // "sinaweibo",
@@ -16,11 +17,11 @@ export default {
         // "alipay",
         // "douyin",
 
-        // #ifdef APP
-        'univerify',
-        // #endif
+        // // #ifdef APP
+        // 'univerify',
+        // // #endif
         // 'weixin',
-        'username',
+
         // // #ifdef APP
         // 'apple',
         // // #endif
